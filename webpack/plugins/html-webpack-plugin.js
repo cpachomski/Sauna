@@ -1,5 +1,5 @@
-const HTMLWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
+import HTMLWebpackPlugin from "html-webpack-plugin";
 
 const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
     title: "Universe",
@@ -8,4 +8,4 @@ const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
     inject: "body"
 });
 
-module.exports = HTMLWebpackPluginConfig;
+export default HTMLWebpackPluginConfig;
