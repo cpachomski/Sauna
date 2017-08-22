@@ -7,10 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "lodash": "^4.17.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-hot-loader": "3",
     "webpack": "^3.5.5"
   },
   "devDependencies": {
@@ -26,7 +28,7 @@
     "webpack-dev-server": "^2.7.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --config webpack/webpack.config.babel.js --color --inline=false --open",
+    "start": "webpack-dev-server --config webpack/webpack.config.babel.js --color --inline --open",
     "build": "webpack --config webpack/webpack.config.js"
   }
 }
