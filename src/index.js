@@ -1,6 +1,22 @@
+import "react-hot-loader/patch";
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom";
+import { AppContainer } from "react-hot-loader";
+import Welcome from "components/welcome";
 
-const Hello = () => <div style={{ color: "red" }}>Suh</div>;
+const render = Component => {
+    ReactDOM.render(
+        <AppContainer>
+            <Component />
+        </AppContainer>,
+        document.getElementById("universe")
+    );
+};
 
-render(<Hello />, document.getElementById("universe"));
+render(Welcome);
+
+if (module.hot) {
+    module.hot.accept("./components/Welcome", () => {
+        render(Welcome);
+    });
+}
