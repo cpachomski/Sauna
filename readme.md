@@ -1,7 +1,7 @@
-# Universe 
+# Sauna
 ### React SPA Boilerplate
 
-![Universe default homepage](assets/homepage.png)
+![Universe default homepage](assets/sauna.jpg)
 
 #### Including
 * Webpack Dev Server
