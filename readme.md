@@ -1,8 +1,8 @@
 ![Universe default homepage](assets/homepage.png)
 
-## Universe
+# Universe 
 ### React SPA Boilerplate
----
+
 #### Including
 * Webpack Dev Server
 * Hot Module Reloading
