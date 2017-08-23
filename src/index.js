@@ -9,7 +9,7 @@ const render = Component => {
         <AppContainer>
             <Component />
         </AppContainer>,
-        document.getElementById("universe")
+        document.getElementById("sauna")
     );
 };
 

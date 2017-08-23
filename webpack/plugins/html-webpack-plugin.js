@@ -2,9 +2,9 @@ const path = require("path");
 import HTMLWebpackPlugin from "html-webpack-plugin";
 
 const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-    title: "Universe",
+    title: "Sauna",
     template: path.resolve(__dirname, "../../src/templates/index.ejs"),
-    rootId: "universe",
+    rootId: "sauna",
     inject: "body",
     filename: path.resolve(__dirname, "../../dist/index.html")
 });
