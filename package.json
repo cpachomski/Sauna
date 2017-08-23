@@ -30,6 +30,6 @@
   },
   "scripts": {
     "start": "webpack-dev-server --config webpack/webpack.config.babel.js --color --inline --open --content-base",
-    "build:spa": "webpack -p --config webpack/webpack.config.babel.js"
+    "build": "webpack -p --config webpack/webpack.config.babel.js"
   }
 }
