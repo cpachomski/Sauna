@@ -12,7 +12,7 @@ class Welcome extends Component {
             height="400"
             width="400"
             src="http://stimulating-soap.surge.sh/sauna.jpg"
-            alt="sauns"
+            alt="sauna"
           />
         </div>
       </div>
