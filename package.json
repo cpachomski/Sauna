@@ -12,11 +12,11 @@
     "lodash": "^4.17.4",
     "preact": "^8.2.4",
     "preact-compat": "^3.17.0",
-    "react-hot-loader": "3.0.0-beta.7",
     "webpack": "^3.5.5"
   },
   "devDependencies": {
     "babel-loader": "^7.1.2",
+    "react-hot-loader": "3.0.0-beta.7",
     "babel-preset-react": "^6.24.1",
     "clean-webpack-plugin": "^0.1.16",
     "css-loader": "^0.28.5",
