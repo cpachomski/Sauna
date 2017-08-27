@@ -1,9 +1,11 @@
 # Sauna
-### React SPA Boilerplate
+### Preact SPA Boilerplate
 
 ![Universe default homepage](assets/sauna.jpg)
 
 #### Including
+* Preact (so you don't have to worry about being sued)
+* Preact-Compat (convert all your React code to Preact automatically)
 * Webpack Dev Server
 * Hot Module Reloading
 * CSS Modules w/ SASS transpilation
@@ -31,4 +33,3 @@
 
 
  
-
