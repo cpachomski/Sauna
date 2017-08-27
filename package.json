@@ -30,6 +30,6 @@
   },
   "scripts": {
     "start": "webpack-dev-server --config webpack/webpack.config.babel.js --color --inline --open --content-base",
-    "build": "webpack -p --config webpack/webpack.config.babel.js"
+    "build": "NODE_ENV=production webpack -p --config webpack/webpack.config.babel.js"
   }
 }
