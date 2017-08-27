@@ -12,8 +12,6 @@
     "lodash": "^4.17.4",
     "preact": "^8.2.4",
     "preact-compat": "^3.17.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
     "react-hot-loader": "3.0.0-beta.7",
     "webpack": "^3.5.5"
   },
